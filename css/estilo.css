@@ -1,0 +1,12 @@
+.text-dark {
+  color: #000 !important;
+}
+.bg-dark {
+  background-color: #000 !important;
+}
+
+.btn-amarelo {
+  color: #fff;
+  background-color: #F0B032;
+  border-color: #F0B032;
+}
