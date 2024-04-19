@@ -10,3 +10,12 @@
   background-color: #F0B032;
   border-color: #F0B032;
 }
+/*
+  Ajeitando os botões cor
+*/
+.btn-outline-warning {
+  color: #F0B032;
+  background-color: transparent;
+  background-image: none;
+  border-color: #F0B032;
+}
