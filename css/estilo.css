@@ -23,5 +23,9 @@
 Ajeitando botões do catalogo de corte
 */
 .btn-custom{
-  
+  color: #000;
+  background-color: transparent;
+  background-image: none;
+  border-color: #F0B032;
+  border-radius: 123px;
 }
