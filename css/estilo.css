@@ -29,3 +29,10 @@ Ajeitando botões do catalogo de corte
   border-color: #F0B032;
   border-radius: 123px;
 }
+
+.btn-sm-catalogo {
+  padding: .25rem .5rem;
+  font-size: .800rem;
+  line-height: 1.5;
+  margin-left: 5px;
+}
