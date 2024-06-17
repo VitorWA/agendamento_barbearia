@@ -18,15 +18,36 @@
   </head>
   <body>
   <header>
-    <nav class="navbar navbar-dark bg-dark"><!--inicio do logotipo no topo-->
-      <div class="container">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark"><!--inicio do logotipo no topo-->
+      <div class="container"><!--inicio container nav-->
         <a href="index.html" class="navbar-brand">
           <img src="img/logoBDR.svg" alt="" width="100" height="100" class="d-inline-block align-top img-fluid">
         </a>
+        <!-- inicio menu hamburguer-->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+          <i class="fa-solid fa-bars text-white"></i>
+        </button>
+        <!-- final menu hamburguer-->
+
+        <div class="collapse navbar-collapse" id="nav-principal"><!--inicio itens menu-->
+          <ul class="navbar-nav ml-auto text-uppercase">
+            <li class="nav-item">
+              <a href="identidade.html" class="nav-link text-white">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="ministerios.html" class="nav-link text-white">Agendar</a>
+            </li>
+            <li class="nav-item">
+              <a href="programacoes.html" class="nav-link text-white">Reserva</a>
+            </li>
+          </ul>
+         </div><!-- final itens menu-->
+         <a href="#" class="d-none d-md-block">
+          <i class="fa-solid fa-circle-user display-4 text-white"></i>
+        </a>
 
         
-        
-      </div>
+      </div><!--final container nav-->
     </nav><!--Final do logotipo no topo-->
   </header>
 
