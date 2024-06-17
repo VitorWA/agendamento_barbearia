@@ -36,3 +36,30 @@ Ajeitando botões do catalogo de corte
   line-height: 1.5;
   margin-left: 5px;
 }
+
+/*
+Estilo dos cards
+*/
+.card-custom {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.card-custom .price {
+  color: red;
+  font-weight: bold;
+}
+.card-custom .btn {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.card-custom .btn i {
+  margin-right: 5px;
+}
